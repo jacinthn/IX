@@ -2,7 +2,23 @@
 #include "cinder/CinderResources.h"
 
 //#define RES_MY_RES			CINDER_RESOURCE( ../resources/, image_name.png, 128, IMAGE )
-
-
-
-
+#define RES_SHADER_PHONG_VERT       CINDER_RESOURCE( ../resources/, phong_vert.glsl, 128, glsl )
+#define RES_SHADER_PHONG_FRAG       CINDER_RESOURCE( ../resources/, phong_frag.glsl, 129, glsl )
+#define RES_OBJ_ARWING              CINDER_RESOURCE( ../resources/, arwing.obj, 130, data )
+#define RES_OBJ_LASER               CINDER_RESOURCE( ../resources/, laser.obj, 131, data )
+#define RES_OBJ_ENEMYA              CINDER_RESOURCE( ../resources/, EnemyA.obj, 132, data )
+#define RES_MAT_ENEMYA              CINDER_RESOURCE( ../resources/, EnemyA.mtl, 133, data )
+#define RES_MAT_ARWING              CINDER_RESOURCE( ../resources/, arwing.mtl, 134, data )
+#define RES_MAT_LASER               CINDER_RESOURCE( ../resources/, laser.mtl, 135, data )
+#define RES_OBJ_ASTEROIDA           CINDER_RESOURCE( ../resources/, asteroidA.obj, 136, data )
+#define RES_MAT_ASTEROIDA           CINDER_RESOURCE( ../resources/, asteroidA.mtl, 137, data )
+#define RES_OBJ_ENEMYB              CINDER_RESOURCE( ../resources/, enemyB.obj, 138, data )
+#define RES_MAT_ENEMYB              CINDER_RESOURCE( ../resources/, enemyB.mtl, 139, data )
+#define RES_OBJ_BOSSWING            CINDER_RESOURCE( ../resources/, bossWing.obj, 140, data )
+#define RES_MAT_BOSSWING            CINDER_RESOURCE( ../resources/, bossWing.mtl, 141, data )
+#define RES_OBJ_BOSSBODY            CINDER_RESOURCE( ../resources/, bossBody.obj, 142, data )
+#define RES_MAT_BOSSBODY            CINDER_RESOURCE( ../resources/, bossBody.mtl, 143, data )
+#define RES_OBJ_ASTEROIDB           CINDER_RESOURCE( ../resources/, asteroidB.obj, 144, data )
+#define RES_MAT_ASTEROIDB           CINDER_RESOURCE( ../resources/, asteroidB.mtl, 145, data )
+#define RES_OBJ_IX                  CINDER_RESOURCE( ../resources/, IX.obj, 146, data )
+#define RES_MAT_IX                  CINDER_RESOURCE( ../resources/, IX.mtl, 146, data )

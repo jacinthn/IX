@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 44;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,13 +12,37 @@
 		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
 		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
 		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		110CAA58F3DE48AAA5AA1480 /* StarFoxApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BA919155B4E47808C202197 /* StarFoxApp.cpp */; };
+		320A2A1A199681C90004AA28 /* asteroidA.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 320A2A18199681C90004AA28 /* asteroidA.mtl */; };
+		320A2A1B199681C90004AA28 /* asteroidA.obj in Resources */ = {isa = PBXBuildFile; fileRef = 320A2A19199681C90004AA28 /* asteroidA.obj */; };
+		324486001995379000E5FE38 /* arwing.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 324485FF1995379000E5FE38 /* arwing.mtl */; };
+		324486021995421A00E5FE38 /* laser.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 324486011995421A00E5FE38 /* laser.mtl */; };
+		3248B94B19899CD70070E9E5 /* laser.obj in Resources */ = {isa = PBXBuildFile; fileRef = 3248B94A19899CD70070E9E5 /* laser.obj */; };
+		3248B94F1989BCE30070E9E5 /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3248B94E1989BCE30070E9E5 /* Bullet.cpp */; };
+		3262040A1999452300E0BABA /* enemyB.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 326204081999452300E0BABA /* enemyB.mtl */; };
+		3262040B1999452300E0BABA /* enemyB.obj in Resources */ = {isa = PBXBuildFile; fileRef = 326204091999452300E0BABA /* enemyB.obj */; };
+		327DE3C2199A713A00F07503 /* bossBody.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 327DE3BE199A713A00F07503 /* bossBody.mtl */; };
+		327DE3C3199A713A00F07503 /* bossBody.obj in Resources */ = {isa = PBXBuildFile; fileRef = 327DE3BF199A713A00F07503 /* bossBody.obj */; };
+		327DE3C4199A713A00F07503 /* bossWing.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 327DE3C0199A713A00F07503 /* bossWing.mtl */; };
+		327DE3C5199A713A00F07503 /* bossWing.obj in Resources */ = {isa = PBXBuildFile; fileRef = 327DE3C1199A713A00F07503 /* bossWing.obj */; };
+		327DE3C8199AA90C00F07503 /* asteroidB.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 327DE3C6199AA90C00F07503 /* asteroidB.mtl */; };
+		327DE3C9199AA90C00F07503 /* asteroidB.obj in Resources */ = {isa = PBXBuildFile; fileRef = 327DE3C7199AA90C00F07503 /* asteroidB.obj */; };
+		3280BEF0198319310056D684 /* phong_vert.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 3280BEEF198319310056D684 /* phong_vert.glsl */; };
+		3280BEF2198319450056D684 /* phong_frag.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 3280BEF1198319450056D684 /* phong_frag.glsl */; };
+		3296A6C619848B770091DEBC /* arwing.obj in Resources */ = {isa = PBXBuildFile; fileRef = 3296A6C519848B770091DEBC /* arwing.obj */; };
+		3299396F19860E8600D1CB08 /* Star.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3299396E19860E8600D1CB08 /* Star.cpp */; };
+		3299397119860E9F00D1CB08 /* StarController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3299397019860E9F00D1CB08 /* StarController.cpp */; };
+		329B710019913F22009B9A07 /* EnemyA.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 329B70FE19913F22009B9A07 /* EnemyA.mtl */; };
+		329B710119913F22009B9A07 /* EnemyA.obj in Resources */ = {isa = PBXBuildFile; fileRef = 329B70FF19913F22009B9A07 /* EnemyA.obj */; };
+		329B71031991541F009B9A07 /* EnemyController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 329B71021991541F009B9A07 /* EnemyController.cpp */; };
+		329B71051991542E009B9A07 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 329B71041991542E009B9A07 /* Enemy.cpp */; };
+		32C9D819198AE1D200DD3418 /* BulletController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32C9D818198AE1D200DD3418 /* BulletController.cpp */; };
+		32D89C7F199C04F300C4C4C2 /* IX.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 32D89C7D199C04F300C4C4C2 /* IX.mtl */; };
+		32D89C80199C04F300C4C4C2 /* IX.obj in Resources */ = {isa = PBXBuildFile; fileRef = 32D89C7E199C04F300C4C4C2 /* IX.obj */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		2433B6B4A045447DBF15C9B3 /* StarFox_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 26996AD584F74FF7B462B80F /* StarFox_Prefix.pch */; };
 		EBBE09C8376A420E8F2B5FD6 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 38DEA9317B4F44979C42C8B2 /* CinderApp.icns */; };
-		57FE19F96BF54A6596B5704E /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F5A4E487C0459EBCD38C4C /* Resources.h */; };
-		110CAA58F3DE48AAA5AA1480 /* StarFoxApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BA919155B4E47808C202197 /* StarFoxApp.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,16 +52,48 @@
 		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		26996AD584F74FF7B462B80F /* StarFox_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = StarFox_Prefix.pch; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		320A2A18199681C90004AA28 /* asteroidA.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = asteroidA.mtl; path = ../resources/asteroidA.mtl; sourceTree = "<group>"; };
+		320A2A19199681C90004AA28 /* asteroidA.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = asteroidA.obj; path = ../resources/asteroidA.obj; sourceTree = "<group>"; };
+		324485FF1995379000E5FE38 /* arwing.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = arwing.mtl; path = ../resources/arwing.mtl; sourceTree = "<group>"; };
+		324486011995421A00E5FE38 /* laser.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = laser.mtl; path = ../resources/laser.mtl; sourceTree = "<group>"; };
+		3248B94A19899CD70070E9E5 /* laser.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = laser.obj; path = ../resources/laser.obj; sourceTree = "<group>"; };
+		3248B94C1989B4B60070E9E5 /* BulletController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BulletController.h; path = ../include/BulletController.h; sourceTree = "<group>"; };
+		3248B94E1989BCE30070E9E5 /* Bullet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Bullet.cpp; path = ../src/Bullet.cpp; sourceTree = "<group>"; };
+		326204081999452300E0BABA /* enemyB.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = enemyB.mtl; path = ../resources/enemyB.mtl; sourceTree = "<group>"; };
+		326204091999452300E0BABA /* enemyB.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = enemyB.obj; path = ../resources/enemyB.obj; sourceTree = "<group>"; };
+		327DE3BE199A713A00F07503 /* bossBody.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bossBody.mtl; path = ../resources/bossBody.mtl; sourceTree = "<group>"; };
+		327DE3BF199A713A00F07503 /* bossBody.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bossBody.obj; path = ../resources/bossBody.obj; sourceTree = "<group>"; };
+		327DE3C0199A713A00F07503 /* bossWing.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bossWing.mtl; path = ../resources/bossWing.mtl; sourceTree = "<group>"; };
+		327DE3C1199A713A00F07503 /* bossWing.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bossWing.obj; path = ../resources/bossWing.obj; sourceTree = "<group>"; };
+		327DE3C6199AA90C00F07503 /* asteroidB.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = asteroidB.mtl; path = ../resources/asteroidB.mtl; sourceTree = "<group>"; };
+		327DE3C7199AA90C00F07503 /* asteroidB.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = asteroidB.obj; path = ../resources/asteroidB.obj; sourceTree = "<group>"; };
+		3280BEEF198319310056D684 /* phong_vert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = phong_vert.glsl; path = ../resources/phong_vert.glsl; sourceTree = "<group>"; };
+		3280BEF1198319450056D684 /* phong_frag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = phong_frag.glsl; path = ../resources/phong_frag.glsl; sourceTree = "<group>"; };
+		328125A0198ECE2700CBD483 /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bullet.h; path = ../include/Bullet.h; sourceTree = "<group>"; };
+		328125A3198ED03F00CBD483 /* EnemyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnemyController.h; path = ../include/EnemyController.h; sourceTree = "<group>"; };
+		3296A6C519848B770091DEBC /* arwing.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = arwing.obj; path = ../resources/arwing.obj; sourceTree = "<group>"; };
+		3299396C19860E5C00D1CB08 /* Star.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Star.h; path = ../include/Star.h; sourceTree = "<group>"; };
+		3299396D19860E7100D1CB08 /* StarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StarController.h; path = ../include/StarController.h; sourceTree = "<group>"; };
+		3299396E19860E8600D1CB08 /* Star.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Star.cpp; path = ../src/Star.cpp; sourceTree = "<group>"; };
+		3299397019860E9F00D1CB08 /* StarController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StarController.cpp; path = ../src/StarController.cpp; sourceTree = "<group>"; };
+		32998BD7198ECDD0006C64E2 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Enemy.h; path = ../include/Enemy.h; sourceTree = "<group>"; };
+		329B70FE19913F22009B9A07 /* EnemyA.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = EnemyA.mtl; path = ../resources/EnemyA.mtl; sourceTree = "<group>"; };
+		329B70FF19913F22009B9A07 /* EnemyA.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = EnemyA.obj; path = ../resources/EnemyA.obj; sourceTree = "<group>"; };
+		329B71021991541F009B9A07 /* EnemyController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EnemyController.cpp; path = ../src/EnemyController.cpp; sourceTree = "<group>"; };
+		329B71041991542E009B9A07 /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
+		32C9D818198AE1D200DD3418 /* BulletController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BulletController.cpp; path = ../src/BulletController.cpp; sourceTree = "<group>"; };
+		32D89C7D199C04F300C4C4C2 /* IX.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IX.mtl; path = ../resources/IX.mtl; sourceTree = "<group>"; };
+		32D89C7E199C04F300C4C4C2 /* IX.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IX.obj; path = ../resources/IX.obj; sourceTree = "<group>"; };
+		38DEA9317B4F44979C42C8B2 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
+		3F5B728981E2459F90877689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		5BA919155B4E47808C202197 /* StarFoxApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = StarFoxApp.cpp; path = ../src/StarFoxApp.cpp; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* StarFox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarFox.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BA919155B4E47808C202197 /* StarFoxApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../src/StarFoxApp.cpp; sourceTree = "<group>"; name = StarFoxApp.cpp; };
-		B7F5A4E487C0459EBCD38C4C /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/Resources.h; sourceTree = "<group>"; name = Resources.h; };
-		38DEA9317B4F44979C42C8B2 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; name = CinderApp.icns; };
-		3F5B728981E2459F90877689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; name = Info.plist; };
-		26996AD584F74FF7B462B80F /* StarFox_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = StarFox_Prefix.pch; sourceTree = "<group>"; name = StarFox_Prefix.pch; };
+		B7F5A4E487C0459EBCD38C4C /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +115,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				5BA919155B4E47808C202197 /* StarFoxApp.cpp */,
+				3299396E19860E8600D1CB08 /* Star.cpp */,
+				3248B94E1989BCE30070E9E5 /* Bullet.cpp */,
+				3299397019860E9F00D1CB08 /* StarController.cpp */,
+				32C9D818198AE1D200DD3418 /* BulletController.cpp */,
+				329B71021991541F009B9A07 /* EnemyController.cpp */,
+				329B71041991542E009B9A07 /* Enemy.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -112,18 +181,17 @@
 			name = StarFox;
 			sourceTree = "<group>";
 		};
-		01B97315FEAEA392516A2CEA /* Blocks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Blocks;
-			sourceTree = "<group>";
-		};
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				328125A0198ECE2700CBD483 /* Bullet.h */,
 				B7F5A4E487C0459EBCD38C4C /* Resources.h */,
 				26996AD584F74FF7B462B80F /* StarFox_Prefix.pch */,
+				3299396C19860E5C00D1CB08 /* Star.h */,
+				3299396D19860E7100D1CB08 /* StarController.h */,
+				3248B94C1989B4B60070E9E5 /* BulletController.h */,
+				32998BD7198ECDD0006C64E2 /* Enemy.h */,
+				328125A3198ED03F00CBD483 /* EnemyController.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -131,8 +199,28 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				32D89C7D199C04F300C4C4C2 /* IX.mtl */,
+				32D89C7E199C04F300C4C4C2 /* IX.obj */,
 				38DEA9317B4F44979C42C8B2 /* CinderApp.icns */,
 				3F5B728981E2459F90877689 /* Info.plist */,
+				327DE3C6199AA90C00F07503 /* asteroidB.mtl */,
+				327DE3C7199AA90C00F07503 /* asteroidB.obj */,
+				327DE3BE199A713A00F07503 /* bossBody.mtl */,
+				327DE3BF199A713A00F07503 /* bossBody.obj */,
+				327DE3C0199A713A00F07503 /* bossWing.mtl */,
+				327DE3C1199A713A00F07503 /* bossWing.obj */,
+				326204081999452300E0BABA /* enemyB.mtl */,
+				326204091999452300E0BABA /* enemyB.obj */,
+				3296A6C519848B770091DEBC /* arwing.obj */,
+				324485FF1995379000E5FE38 /* arwing.mtl */,
+				320A2A19199681C90004AA28 /* asteroidA.obj */,
+				320A2A18199681C90004AA28 /* asteroidA.mtl */,
+				329B70FE19913F22009B9A07 /* EnemyA.mtl */,
+				329B70FF19913F22009B9A07 /* EnemyA.obj */,
+				3248B94A19899CD70070E9E5 /* laser.obj */,
+				324486011995421A00E5FE38 /* laser.mtl */,
+				3280BEEF198319310056D684 /* phong_vert.glsl */,
+				3280BEF1198319450056D684 /* phong_frag.glsl */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -172,6 +260,8 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "StarFox" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -197,6 +287,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBBE09C8376A420E8F2B5FD6 /* CinderApp.icns in Resources */,
+				3280BEF0198319310056D684 /* phong_vert.glsl in Resources */,
+				3262040B1999452300E0BABA /* enemyB.obj in Resources */,
+				327DE3C4199A713A00F07503 /* bossWing.mtl in Resources */,
+				320A2A1B199681C90004AA28 /* asteroidA.obj in Resources */,
+				327DE3C3199A713A00F07503 /* bossBody.obj in Resources */,
+				324486021995421A00E5FE38 /* laser.mtl in Resources */,
+				327DE3C5199A713A00F07503 /* bossWing.obj in Resources */,
+				32D89C80199C04F300C4C4C2 /* IX.obj in Resources */,
+				3280BEF2198319450056D684 /* phong_frag.glsl in Resources */,
+				327DE3C8199AA90C00F07503 /* asteroidB.mtl in Resources */,
+				32D89C7F199C04F300C4C4C2 /* IX.mtl in Resources */,
+				320A2A1A199681C90004AA28 /* asteroidA.mtl in Resources */,
+				329B710119913F22009B9A07 /* EnemyA.obj in Resources */,
+				327DE3C2199A713A00F07503 /* bossBody.mtl in Resources */,
+				3296A6C619848B770091DEBC /* arwing.obj in Resources */,
+				324486001995379000E5FE38 /* arwing.mtl in Resources */,
+				327DE3C9199AA90C00F07503 /* asteroidB.obj in Resources */,
+				3262040A1999452300E0BABA /* enemyB.mtl in Resources */,
+				329B710019913F22009B9A07 /* EnemyA.mtl in Resources */,
+				3248B94B19899CD70070E9E5 /* laser.obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +318,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				110CAA58F3DE48AAA5AA1480 /* StarFoxApp.cpp in Sources */,
+				3299396F19860E8600D1CB08 /* Star.cpp in Sources */,
+				329B71051991542E009B9A07 /* Enemy.cpp in Sources */,
+				3299397119860E9F00D1CB08 /* StarController.cpp in Sources */,
+				32C9D819198AE1D200DD3418 /* BulletController.cpp in Sources */,
+				329B71031991541F009B9A07 /* EnemyController.cpp in Sources */,
+				3248B94F1989BCE30070E9E5 /* Bullet.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,24 +334,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				DEAD_CODE_STRIPPING = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = StarFox_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = StarFox_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jacinth/Downloads/Cinder-Assimp-master/lib/macosx",
+					/Code/cinder/lib/macosx,
+				);
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
 				PRODUCT_NAME = StarFox;
-				WRAPPER_EXTENSION = app;
 				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
@@ -254,22 +375,27 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jacinth/Downloads/Cinder-Assimp-master/lib/macosx",
+					/Code/cinder/lib/macosx,
+				);
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
 				PRODUCT_NAME = StarFox;
 				STRIP_INSTALLED_PRODUCT = YES;
-				WRAPPER_EXTENSION = app;
 				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
-				CINDER_PATH = "../../../cinder";
+				CINDER_PATH = ../../../cinder;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
@@ -282,11 +408,11 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
-				CINDER_PATH = "../../../cinder";
+				CINDER_PATH = ../../../cinder;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
